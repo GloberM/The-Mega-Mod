@@ -1,0 +1,31 @@
+<SoftwareType>
+	<Name>(Softwares name)</Name>
+	<Category>(Produc Type)</Category>
+	<Description>(Description of the WHOLE software)</Description>
+	<Random>(0-1)</Random>
+	<Categories>
+		<Category Name="(Category Name)">
+			<Description>Category Name</Description>
+			<Popularity>(0-1)</Popularity>
+			<Retention>(0-1)</Retention>
+			<TimeScale>(0-1)</TimeScale>
+			<Iterative>(0-1)</Iterative>
+      <NameGenerator>(Name Generators name)</NameGenerator>
+		</Category>
+	</Categories>
+	<OSSpecific>(TRUE or FALSE)</OSSpecific>
+	<OneClient>(TRUE or FALSE)</OneClient>
+	<InHouse>(TRUE or FALSE)</InHouse>
+	<Features>
+		<Feature (Forced,vital or from)(="TRUE, FALSE or feature name")>
+            <Name>(Feature name)</Name>
+            <Category>(Speciality Used In Feature)</Category>
+            <Description>(Description of Feature(Not Required))</Description>
+            <DevTime>(1-12)</DevTime>
+            <Innovation>(1/3)</Innovation>
+            <Usability>(1/3)</Usability>
+            <Stability>(1/3)</Stability>
+            <CodeArt>(0-1)</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>

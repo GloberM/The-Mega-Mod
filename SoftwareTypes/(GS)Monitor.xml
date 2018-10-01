@@ -1,0 +1,57 @@
+<SoftwareType>
+ <Name>Monitor</Name>
+ <Category>Monitors</Category>
+ <Description>A monitor for your computer setup.</Description>
+ <Random>0.6</Random>
+ <Categories>
+	<Category Name="CRT">
+		<Description>A cathode ray tube monitor</Description>
+		<Popularity>0.25</Popularity>
+		<Retention>0.25</Retention>
+		<TimeScale>0.1</TimeScale>
+		<Iterative>0.25</Iterative>
+    <NameGenerator>(Name Generators name)</NameGenerator>
+	</Category>
+	<Category Name="LCD">
+		<Description>A liquid crystal display</Description>
+		<Popularity>0.5</Popularity>
+		<Retention>0.75</Retention>
+		<TimeScale>0.5</TimeScale>
+		<Iterative>0.25</Iterative>
+    <NameGenerator>(Name Generators name)</NameGenerator>
+	</Category>
+	<Category Name="LED">
+		<Description>A light emitting diodes display</Description>
+		<Popularity>0.75</Popularity>
+		<Retention>1</Retention>
+		<TimeScale>1</TimeScale>
+		<Iterative>0.25</Iterative>
+    <NameGenerator>(Name Generators name)</NameGenerator>
+	</Category>
+ </Categories>
+ <OSSpecific>FALSE</OSSpecific>
+ <OneClient>FALSE</OneClient>
+ <InHouse>TRUE</InHouse>
+ <Features>
+  <Feature Forced="TRUE">
+   <Name>Electron Gun</Name>
+   <Category>Electronics</Category>
+   <Description>An electron gun</Description>
+   <DevTime>1</DevTime>
+   <Innovation>1</Innovation>
+   <Usability>1</Usability>
+   <Stability>1</Stability>
+   <CodeArt>1</CodeArt>
+  </Feature>
+	<Feature Forced="TRUE">
+	 <Name>Electron Gun</Name>
+   <Category>Electronics</Category>
+	 <Description>An electron gun</Description>
+	 <DevTime>1</DevTime>
+	 <Innovation>1</Innovation>
+	 <Usability>1</Usability>
+	 <Stability>1</Stability>
+	 <CodeArt>1</CodeArt>
+  </Feature>
+ </Features>
+</SoftwareType>
